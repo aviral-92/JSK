@@ -1,0 +1,94 @@
+.tab {
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-right: 15%;
+    /*    background-color: darkslategrey;*/
+    /*    font-display: block;*/
+    /*    font-family: cursive;*/
+    /*    font-weight: 700;*/
+}
+
+.btn-aries {
+    background-color: #ff0000;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-taurus {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-gemini {
+    background-color: chartreuse;
+    color: white;
+    font-weight: bold;
+}
+
+/*.btn-gemini:hover {
+    color: white;
+}*/
+
+.btn-cancer {
+    background-color: skyblue;
+    color: chocolate;
+    font-weight: bold;
+}
+
+.btn-leo {
+    background-color: #FFFC7F;
+    color: chocolate;
+    font-weight: bold;
+}
+
+.btn-virgo {
+    background-color: #507642;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-libra {
+    background-color: #191970;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-libra:hover {
+    color: darkgrey;
+}
+
+.btn-scorpio {
+    background-color: mediumpurple;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-sagittarius {
+    background-color: #FFA500;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-capricorn {
+    background-color: #1560bd;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-aquarius {
+    background-color: violet;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-pisces {
+    background-color: #FF69B4;
+    color: white;
+    font-weight: bold;
+}
+
+.horoscope {
+    margin-left: 15%;
+    margin-right: 19.5%;
+}

@@ -1,0 +1,23 @@
+<div class="text-center">
+    <br>
+    <img src="{{ image }}" alt="{{ alt }}" height="{{height}}" width="{{width}}"/>
+    <h3>{{ allAbout }}</h3>
+    <h4>{{ date }}</h4>
+</div>
+<div>
+    <b>Personality :</b>
+    <p>{{ personality }}</p>
+
+    <b>Love Trait :</b>
+    <p>{{ loveTrait}}</p>
+
+    <b>Compatibility :</b>
+    <ul>
+        <li ng-repeat="compatibility in compatibilitys">{{ compatibility }}</li>
+    </ul>
+
+    <b>Best Match:</b>
+    <ul>
+        <li ng-repeat="match in matches">{{ match }}</li>
+    </ul>
+</div>

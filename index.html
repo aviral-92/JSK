@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="scotchApp">
+
+<head>
+    <title>Jyotish</title>
+    <!-- SCROLLS -->
+    <!--    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <!-- SPELLS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="js/Router.js"></script>
+    <script src="js/Controller.js"></script>
+</head>
+
+<!-- define angular controller -->
+
+<body ng-controller="mainController">
+<!--    <br><br><br><br> <a href="#aries">-->
+<div class="tab btn-group">
+    <a href="#aries" class="btn btn-aries">Aries</a>
+    <a href="#taurus" class="btn btn-taurus">Taurus</a>
+    <a href="#gemini" class="btn btn-gemini">Gemini</a>
+    <a href="#cancer" class="btn btn-cancer">Cancer</a>
+    <a href="#leo" class="btn btn-leo">Leo</a>
+    <a href="#virgo" class="btn btn-virgo">Virgo</a>
+    <a href="#libra" class="btn btn-libra">Libra</a>
+    <a href="#scorpio" class="btn btn-scorpio">Scorpio</a>
+    <a href="#sagittarius" class="btn btn-sagittarius">Sagittarius</a>
+    <a href="#capricorn" class="btn btn-capricorn">Capricorn</a>
+    <a href="#aquarius" class="btn btn-aquarius">Aquarius</a>
+    <a href="#pisces" class="btn btn-pisces">Pisces</a>
+</div>
+<!-- angular templating -->
+<!-- this is where content will be injected -->
+<div class="well well-sm horoscope">
+    <div ng-view></div>
+</div>
+<div class="footer"></div>
+</body>
+
+</html>
