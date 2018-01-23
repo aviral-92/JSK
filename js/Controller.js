@@ -2,7 +2,7 @@
 scotchApp.controller('mainController', function ($scope) {
 
     // create a message to display in our view
-    //$scope.message = 'Everyone come and see how good I look!';
+    $scope.message = 'Everyone come and see how good I look!';
 });
 
 scotchApp.controller('ariesController', function ($scope) {
@@ -103,7 +103,7 @@ scotchApp.controller('virgoController', function ($scope) {
 });
 scotchApp.controller('libraController', function ($scope) {
 
-    $scope.image = 'images/Cancer.png';
+    $scope.image = 'images/Libra.png';
     $scope.alt = 'Cancer';
     $scope.height = '180';
     $scope.width = '350';
@@ -116,20 +116,20 @@ scotchApp.controller('libraController', function ($scope) {
 });
 scotchApp.controller('scorpioController', function ($scope) {
 
-    $scope.image = 'images/Cancer.png';
-    $scope.alt = 'Cancer';
+    $scope.image = 'images/Scorpio.png';
+    $scope.alt = 'Scorpio';
     $scope.height = '180';
     $scope.width = '350';
-    $scope.allAbout = 'Know All About Cancer';
-    $scope.date = '(June 22 - July 22)';
-    $scope.personality = 'Cancer is the fourth sign in the Zodiac, and its ruling planet is the Moon. The name Cancer is derived from the Latin word, meaning The Crab.They love their home - their roots. Belonging to the most empathetic zodiac sign, Cancerians are often overtly sensitive. They take great pleasure in the comforts of home and family and are at their best when all is peaceful at this front. In one word, a Cancerian is known to be Jack of all Trades.';
-    $scope.loveTrait = 'Cancerians romance those who are quite opposite to them in nature. They are strongly attracted to people who are confident, strong and successful. Although they fall in love all the time, their introvert nature and uneasiness in disclosing their true feelings makes many of these affairs one-sided. A Cancerian is a good lover if not a bold one. Their protective instinct can make the other person feel loved and cared for.';
-    $scope.compatibilitys = ["Taurus", "Virgo", "Scorpio", "Pisces"];
-    $scope.matches = ["Taurus"];
+    $scope.allAbout = 'Know All About Scorpio';
+    $scope.date = '(October 24 - November 22)';
+    $scope.personality = 'Scorpio is the eighth sign of the Zodiac. The symbol of Scorpio is The Scorpion. Its ruling planet is Mars. A Scorpio is intense, dominating, ruthless, energetic, passionate and committed. Scorpios lead the battle of life with their keen intellect and admirable qualities of patience and creativity. They live life on their own terms and are in ultimate control of their destiny.';
+    $scope.loveTrait = 'Scorpio can be an ideal lover, but not always an ideal partner, because of their egoistic nature. They enjoy the domestic comforts and are willing to sacrifice in love. They have an extraordinary way to express their feelings for others.';
+    $scope.compatibilitys = ["Taurus", "Cancer", "Virgo", "Capricorn"];
+    $scope.matches = ["Capricorn"];
 });
 scotchApp.controller('sagittariusController', function ($scope) {
 
-    $scope.image = 'images/Cancer.png';
+    $scope.image = 'images/Sagittarius.png';
     $scope.alt = 'Cancer';
     $scope.height = '180';
     $scope.width = '350';
