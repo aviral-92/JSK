@@ -2,7 +2,7 @@
 scotchApp.controller('mainController', function ($scope) {
 
     // create a message to display in our view
-    $scope.message = 'Everyone come and see how good I look!';
+    //$scope.message = 'Everyone come and see how good I look!';
 });
 
 scotchApp.controller('ariesController', function ($scope) {
@@ -76,43 +76,43 @@ scotchApp.controller('cancerController', function ($scope) {
 
 scotchApp.controller('leoController', function ($scope) {
 
-    $scope.image = 'images/Cancer.png';
-    $scope.alt = 'Cancer';
+    $scope.image = 'images/Leo.png';
+    $scope.alt = 'Leo';
     $scope.height = '180';
     $scope.width = '350';
-    $scope.allAbout = 'Know All About Cancer';
-    $scope.date = '(June 22 - July 22)';
-    $scope.personality = 'Cancer is the fourth sign in the Zodiac, and its ruling planet is the Moon. The name Cancer is derived from the Latin word, meaning The Crab.They love their home - their roots. Belonging to the most empathetic zodiac sign, Cancerians are often overtly sensitive. They take great pleasure in the comforts of home and family and are at their best when all is peaceful at this front. In one word, a Cancerian is known to be Jack of all Trades.';
-    $scope.loveTrait = 'Cancerians romance those who are quite opposite to them in nature. They are strongly attracted to people who are confident, strong and successful. Although they fall in love all the time, their introvert nature and uneasiness in disclosing their true feelings makes many of these affairs one-sided. A Cancerian is a good lover if not a bold one. Their protective instinct can make the other person feel loved and cared for.';
-    $scope.compatibilitys = ["Taurus", "Virgo", "Scorpio", "Pisces"];
-    $scope.matches = ["Taurus"];
+    $scope.allAbout = 'Know All About Leo';
+    $scope.date = '(July 23 - August 23)';
+    $scope.personality = 'Leo is the fifth sign in the zodiac, which symbolizes The Lion, and is considered the most powerful and dynamic one. Its ruling planet is the Sun. The people belonging to this sign are ambitious, courageous, dominant, strong willed, positive, independent, and self confident. There is no such word as doubt in their vocabulary, and they are self controlled.';
+    $scope.loveTrait = 'Leo is the natural sign of love and romance. Leo is an ideal lover and is generous, appealing and glamorous. In marriage, a Leo is possessive and loyal. They are warm, considerate and lovers with style, wooing the beloved in the most elegant manner.';
+    $scope.compatibilitys = ["Aries", "Gemini", "Libra", "Sagittarius"];
+    $scope.matches = ["Aries"];
 });
 
 scotchApp.controller('virgoController', function ($scope) {
 
     $scope.image = 'images/Virgo.png';
-    $scope.alt = 'Cancer';
+    $scope.alt = 'Virgo';
     $scope.height = '180';
     $scope.width = '350';
-    $scope.allAbout = 'Know All About Cancer';
-    $scope.date = '(June 22 - July 22)';
-    $scope.personality = 'Cancer is the fourth sign in the Zodiac, and its ruling planet is the Moon. The name Cancer is derived from the Latin word, meaning The Crab.They love their home - their roots. Belonging to the most empathetic zodiac sign, Cancerians are often overtly sensitive. They take great pleasure in the comforts of home and family and are at their best when all is peaceful at this front. In one word, a Cancerian is known to be Jack of all Trades.';
-    $scope.loveTrait = 'Cancerians romance those who are quite opposite to them in nature. They are strongly attracted to people who are confident, strong and successful. Although they fall in love all the time, their introvert nature and uneasiness in disclosing their true feelings makes many of these affairs one-sided. A Cancerian is a good lover if not a bold one. Their protective instinct can make the other person feel loved and cared for.';
-    $scope.compatibilitys = ["Taurus", "Virgo", "Scorpio", "Pisces"];
-    $scope.matches = ["Taurus"];
+    $scope.allAbout = 'Know All About Virgo';
+    $scope.date = '(August 24 - September 22)';
+    $scope.personality = 'Virgo is the sixth sign of the Zodiac. The symbol of Virgo is The Virgin. Virgos are practical, cool headed and thoroughly meticulous in their work, never unnecessarily swayed by emotions. Often quiet and reserved, tidy and perfect, they seldom shy away from taking on challenges and prove their mettle with hard work and a quiet determination. It is an Earth sign, so it makes them practical and reliable.';
+    $scope.loveTrait = 'Virgos are devoted, loyal and steady. However, they lack the charm and glamour of being a great lover. Marriage would be stable, since Virgo has a traditional and conventional attitude towards it. They prefer comfort and security in a relationship.';
+    $scope.compatibilitys = ["Taurus", "Cancer", "Scorpio", "Capricorn"];
+    $scope.matches = ["Capricorn"];
 });
 scotchApp.controller('libraController', function ($scope) {
 
     $scope.image = 'images/Libra.png';
-    $scope.alt = 'Cancer';
+    $scope.alt = 'Libra';
     $scope.height = '180';
     $scope.width = '350';
-    $scope.allAbout = 'Know All About Cancer';
-    $scope.date = '(June 22 - July 22)';
-    $scope.personality = 'Cancer is the fourth sign in the Zodiac, and its ruling planet is the Moon. The name Cancer is derived from the Latin word, meaning The Crab.They love their home - their roots. Belonging to the most empathetic zodiac sign, Cancerians are often overtly sensitive. They take great pleasure in the comforts of home and family and are at their best when all is peaceful at this front. In one word, a Cancerian is known to be Jack of all Trades.';
-    $scope.loveTrait = 'Cancerians romance those who are quite opposite to them in nature. They are strongly attracted to people who are confident, strong and successful. Although they fall in love all the time, their introvert nature and uneasiness in disclosing their true feelings makes many of these affairs one-sided. A Cancerian is a good lover if not a bold one. Their protective instinct can make the other person feel loved and cared for.';
-    $scope.compatibilitys = ["Taurus", "Virgo", "Scorpio", "Pisces"];
-    $scope.matches = ["Taurus"];
+    $scope.allAbout = 'Know All About Libra';
+    $scope.date = '(September 23 - October 23)';
+    $scope.personality = 'Libra is the seventh sign of the Zodiac. Its ruling Planet is Venus. The word Libra symbolizes The Scale or The Balance. A typical Libran is artistic and refined. Librans are keen strategists, organizers of groups and get things done with great poise. Librans are among the most civilized of the twelve zodiacal characters and are often good looking.';
+    $scope.loveTrait = 'Librans are considered to be great lovers. It is observed that Librans are made for Love, but sometimes it becomes difficult for them to handle matrimonial responsibilities. Their great attachment and balance in love helps them keep ever-lasting relationships. No one can question his or her loyalty and devotion. They can make a good friend, but not necessarily an ideal one.';
+    $scope.compatibilitys = ["Taurus", "Gemini", "Leo", "Aquarius"];
+    $scope.matches = ["Gemini"];
 });
 scotchApp.controller('scorpioController', function ($scope) {
 
@@ -130,54 +130,54 @@ scotchApp.controller('scorpioController', function ($scope) {
 scotchApp.controller('sagittariusController', function ($scope) {
 
     $scope.image = 'images/Sagittarius.png';
-    $scope.alt = 'Cancer';
+    $scope.alt = 'Sagittarius';
     $scope.height = '180';
     $scope.width = '350';
-    $scope.allAbout = 'Know All About Cancer';
-    $scope.date = '(June 22 - July 22)';
-    $scope.personality = 'Cancer is the fourth sign in the Zodiac, and its ruling planet is the Moon. The name Cancer is derived from the Latin word, meaning The Crab.They love their home - their roots. Belonging to the most empathetic zodiac sign, Cancerians are often overtly sensitive. They take great pleasure in the comforts of home and family and are at their best when all is peaceful at this front. In one word, a Cancerian is known to be Jack of all Trades.';
-    $scope.loveTrait = 'Cancerians romance those who are quite opposite to them in nature. They are strongly attracted to people who are confident, strong and successful. Although they fall in love all the time, their introvert nature and uneasiness in disclosing their true feelings makes many of these affairs one-sided. A Cancerian is a good lover if not a bold one. Their protective instinct can make the other person feel loved and cared for.';
-    $scope.compatibilitys = ["Taurus", "Virgo", "Scorpio", "Pisces"];
-    $scope.matches = ["Taurus"];
+    $scope.allAbout = 'Know All About Sagittarius';
+    $scope.date = '(November 23 - December 21)';
+    $scope.personality = 'Sagittarius is the ninth sign in the Zodiac, ruled by the planet Jupiter. The symbol of Sagittarius is The Archer. This is the sign of good fortune, intuitions, and honesty, true speaking, ambitious and idealism. Sagittarius are truth-seekers, and the best way for them to do it is to travel, talk to others and get answers to the internal quest. Knowledge holds the key to re fuelling their broad-minded approach towards life. Sagittarians are fun loving, carefree individuals who live life to the fullest.';
+    $scope.loveTrait = 'Sagittarians are sincere towards their romantic life. As lovers, they are glamorous, warm, friendly, open and charming.';
+    $scope.compatibilitys = ["Aries", "Leo", "Aquarius", "Pisces"];
+    $scope.matches = ["Aries"];
 });
 scotchApp.controller('capricornController', function ($scope) {
 
-    $scope.image = 'images/Cancer.png';
-    $scope.alt = 'Cancer';
+    $scope.image = 'images/Capricorn.png';
+    $scope.alt = 'Capricorn';
     $scope.height = '180';
     $scope.width = '350';
-    $scope.allAbout = 'Know All About Cancer';
-    $scope.date = '(June 22 - July 22)';
-    $scope.personality = 'Cancer is the fourth sign in the Zodiac, and its ruling planet is the Moon. The name Cancer is derived from the Latin word, meaning The Crab.They love their home - their roots. Belonging to the most empathetic zodiac sign, Cancerians are often overtly sensitive. They take great pleasure in the comforts of home and family and are at their best when all is peaceful at this front. In one word, a Cancerian is known to be Jack of all Trades.';
-    $scope.loveTrait = 'Cancerians romance those who are quite opposite to them in nature. They are strongly attracted to people who are confident, strong and successful. Although they fall in love all the time, their introvert nature and uneasiness in disclosing their true feelings makes many of these affairs one-sided. A Cancerian is a good lover if not a bold one. Their protective instinct can make the other person feel loved and cared for.';
-    $scope.compatibilitys = ["Taurus", "Virgo", "Scorpio", "Pisces"];
-    $scope.matches = ["Taurus"];
+    $scope.allAbout = 'Know All About Capricorn';
+    $scope.date = '(December 22 - January 20)';
+    $scope.personality = 'This is the tenth sign of the Zodiac. Its ruling planet is Saturn. The symbol of Capricorn is The Goat. A typical Capricorn is conscientious, hardworking, ambitious, cautious, tolerant, patient, disciplined, calculated and confident. It becomes easy for them to make money in life. They believe in doing things rather than thinking about them again and again.';
+    $scope.loveTrait = 'Capricorns are not considered good lovers. They do not express their emotions easily. After marriage, the comforts of home, security, children, and position - they accomplish all these good things of life.';
+    $scope.compatibilitys = ["Virgo", "Scorpio", "Capricorn", "Pisces"];
+    $scope.matches = ["Scorpio"];
 });
 
 scotchApp.controller('aquariusController', function ($scope) {
 
-    $scope.image = 'images/Cancer.png';
-    $scope.alt = 'Cancer';
+    $scope.image = 'images/Aquarius.png';
+    $scope.alt = 'Aquarius';
     $scope.height = '180';
     $scope.width = '350';
-    $scope.allAbout = 'Know All About Cancer';
-    $scope.date = '(June 22 - July 22)';
-    $scope.personality = 'Cancer is the fourth sign in the Zodiac, and its ruling planet is the Moon. The name Cancer is derived from the Latin word, meaning The Crab.They love their home - their roots. Belonging to the most empathetic zodiac sign, Cancerians are often overtly sensitive. They take great pleasure in the comforts of home and family and are at their best when all is peaceful at this front. In one word, a Cancerian is known to be Jack of all Trades.';
-    $scope.loveTrait = 'Cancerians romance those who are quite opposite to them in nature. They are strongly attracted to people who are confident, strong and successful. Although they fall in love all the time, their introvert nature and uneasiness in disclosing their true feelings makes many of these affairs one-sided. A Cancerian is a good lover if not a bold one. Their protective instinct can make the other person feel loved and cared for.';
-    $scope.compatibilitys = ["Taurus", "Virgo", "Scorpio", "Pisces"];
-    $scope.matches = ["Taurus"];
+    $scope.allAbout = 'Know All About Aquarius';
+    $scope.date = '(January 21 - February 18)';
+    $scope.personality = 'Aquarius is the eleventh sign of the Zodiac. Its ruling planet is Saturn. The symbol of Aquarius is The Water-Bearer. Aquarians in general come in two different types shy, and lively. Both are strong willed and honest. They plan their life in a systematic manner. They are truly unique, independent, or even eccentric. They are nearly always intelligent, concise, clear and logical.';
+    $scope.loveTrait = 'Aquarian love their private space and intrusions are not very welcome. But ones they fall in love, they like to make everything perfect for their partner. Their approach to love and marriage is logical and intellectual, therefore loving with mind, as well as eyes. They are home loving and with a liking for cooking and trying out various recipes, they often surprise their partners by taking these up as pastime pleasures.';
+    $scope.compatibilitys = ["Aries", "Gemini", "Libra", "Sagittarius"];
+    $scope.matches = ["Libra"];
 });
 
 scotchApp.controller('piscesController', function ($scope) {
 
-    $scope.image = 'images/Cancer.png';
-    $scope.alt = 'Cancer';
+    $scope.image = 'images/Pisces.png';
+    $scope.alt = 'Pisces';
     $scope.height = '180';
     $scope.width = '350';
-    $scope.allAbout = 'Know All About Cancer';
-    $scope.date = '(June 22 - July 22)';
-    $scope.personality = 'Cancer is the fourth sign in the Zodiac, and its ruling planet is the Moon. The name Cancer is derived from the Latin word, meaning The Crab.They love their home - their roots. Belonging to the most empathetic zodiac sign, Cancerians are often overtly sensitive. They take great pleasure in the comforts of home and family and are at their best when all is peaceful at this front. In one word, a Cancerian is known to be Jack of all Trades.';
-    $scope.loveTrait = 'Cancerians romance those who are quite opposite to them in nature. They are strongly attracted to people who are confident, strong and successful. Although they fall in love all the time, their introvert nature and uneasiness in disclosing their true feelings makes many of these affairs one-sided. A Cancerian is a good lover if not a bold one. Their protective instinct can make the other person feel loved and cared for.';
-    $scope.compatibilitys = ["Taurus", "Virgo", "Scorpio", "Pisces"];
-    $scope.matches = ["Taurus"];
+    $scope.allAbout = 'Know All About Pisces';
+    $scope.date = '(February 19 - March 20)';
+    $scope.personality = 'Piscean is the twelfth sign of the Zodiac. Its ruling planet is Jupiter. The symbol of Pisces is The Fish. They are artistic by nature and admire beauty. Generally they are not so practical by nature, but love to be loyal, friendly, kind and generous. Pisceans are sympathetic, soft hearted, often moody and some times unpredictable. It is difficult for them to think and analyse.';
+    $scope.loveTrait = 'Pisceans have a lot of love affairs. The heart of a Piscean breaks and mends time and time again. They would have a keen desire to love and be loved. Piscean is not a devoted lover. The possibility of them ending up with the wrong person is really high.';
+    $scope.compatibilitys = ["Cancer", "Sagittarius", "Capricorn", "Aquarius", "Pisces"];
+    $scope.matches = ["Aquarius"];
 });
