@@ -93,24 +93,39 @@
     margin-right: 8.5%;
 }
 
-.brand{
+.brand {
     margin-left: 1.5%;
     color: #101010;
     font-size: xx-large;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.brand:hover{
+.brand:hover {
     color: #761c19;
 
 }
 
-.blink{
-    color:red;
-    font-size:30px;
-    animation:blink_animation .5s infinite;
+.blink {
+    color: red;
+    font-size: 30px;
+    animation: blink_animation .5s infinite;
 }
+
 @keyframes blink_animation {
-    50%   {color:red;}
-    100% {color:blue}
+    50% {
+        color: red;
+    }
+    100% {
+        color: blue
+    }
+}
+
+.footer-list {
+    color: #1b6d85;
+    font-weight: bold;
+}
+
+.about-us {
+    color: #d43f3a;
+    font-weight: bold;
 }
