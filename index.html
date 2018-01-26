@@ -4,12 +4,17 @@
 <html ng-app="scotchApp">
 
 <head>
-    <title>Jyotish</title>
+    <meta name="description" content="Jyotish Smadhan Kendera">
+    <meta name="keywords" content="Jyotish, Smadhan, kendera, kundali, love, kundali matching, astrology, Birth astrology">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyotish Samadhan Kendera</title>
     <!-- SCROLLS -->
     <!--    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css"/>
     <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- SPELLS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -18,6 +23,8 @@
     <script src="js/Router.js"></script>
     <script src="js/Controller.js"></script>
 </head>
+
+<!--https://www.facebook.com/jyotishsmadhankendra/-->
 
 <!-- define angular controller -->
 
@@ -38,18 +45,17 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
 <!--<div class="row">-->
-    <!--<div class="col-sm-4 brand">-->
-        <!--<h2>Jyotish Smadhan Kendra</h2>-->
-    <!--</div>-->
+<!--<div class="col-sm-4 brand">-->
+<!--<h2>Jyotish Smadhan Kendra</h2>-->
+<!--</div>-->
 <!--</div>-->
 
 <div class="tab btn-group btn-group-lg">
@@ -68,10 +74,63 @@
 </div>
 <!-- angular templating -->
 <!-- this is where content will be injected -->
-<div class="well well-sm horoscope">
-    <div ng-view></div>
+<div class=" panel panel-default horoscope">
+    <div class="panel-body" ng-view></div>
 </div>
-<div class="footer"></div>
+<div class="well">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/banner.jpg" width="400" height="200"/>
+                </div>
+                <div class="col-md-3">
+                    <b>Live Astrology</b>
+                    <ul class="footer-list">
+                        <li>Career Forecast 2018</li>
+                        <li>Kundali</li>
+                        <li>Annual Forecast 2018</li>
+                        <li>Kundali Matching</li>
+                        <li>Finance Forecast 2018</li>
+                        <li>Life Report</li>
+                        <li>Business Forecast 2018</li>
+                        <li>Love Forecast 2018</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <b>Vastu Service</b>
+                    <ul class="footer-list">
+                        <li>Vastu Services for Offices</li>
+                        <li>Vastu Services for Factories</li>
+                        <li>Vastu Service for Land Selection</li>
+                        <li>Vastu Services for Farmhouses</li>
+                        <li>Vastu Services for Bungalows</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <b>Follow us:</b><br>
+                    <a href="https://www.facebook.com/jyotishsmadhankendra">
+                        <i class="fa fa-facebook-official" style="font-size: xx-large"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <b>@Copyright 2018. All rights reserved</b>
+                </div>
+                <div class="col-md-8">
+                    <b class="pull-right">Made by: Aviral Mittal (Software Engineer) </b>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 
 </html>

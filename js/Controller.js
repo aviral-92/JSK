@@ -5,6 +5,16 @@ scotchApp.controller('mainController', function ($scope) {
     //$scope.message = 'Everyone come and see how good I look!';
 });
 
+scotchApp.controller('aboutController', function ($scope) {
+
+    //$scope.message = 'Everyone come and see how good I look!';
+});
+
+scotchApp.controller('contactController', function ($scope) {
+
+    //$scope.message = 'Everyone come and see how good I look!';
+});
+
 scotchApp.controller('ariesController', function ($scope) {
 
     $scope.image = 'images/Aries.png';

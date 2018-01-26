@@ -7,23 +7,23 @@
 
 	        // route for the home page
 	        .when('/', {
-	            templateUrl: 'Zordiac_Pages/home.html',
+	            templateUrl: 'Pages/home.html',
 	            controller: 'mainController'
 	        })
 
 	        // route for the about page
 	        .when('/about', {
-	            templateUrl: 'Zordiac_Pages/about.html',
+	            templateUrl: 'Pages/about.html',
 	            controller: 'aboutController'
 	        })
 
 	        // route for the contact page
 	        .when('/contact', {
-	            templateUrl: 'Zordiac_Pages/contact.html',
+	            templateUrl: 'Pages/contact.html',
 	            controller: 'contactController'
 	        })
 	        .when('/aries', {
-	            templateUrl: 'Zordiac_Pages/AllZodiac.html',
+	            templateUrl: 'Pages/AllZodiac.html',
 	            controller: 'ariesController'
 	        })
 
