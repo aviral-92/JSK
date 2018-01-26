@@ -111,6 +111,11 @@
     animation: blink_animation .5s infinite;
 }
 
+.blink-custom {
+    color: #d43f3a;
+    animation: blink_animation .5s infinite;
+}
+
 @keyframes blink_animation {
     50% {
         color: red;
@@ -128,4 +133,10 @@
 .about-us {
     color: #d43f3a;
     font-weight: bold;
+}
+
+.glyphicon-contact {
+    color: darkgreen;
+    font-size: x-large;
+    font-weight: bolder;
 }
