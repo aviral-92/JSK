@@ -14,6 +14,10 @@ scotchApp.config(function ($routeProvider) {
             templateUrl: 'Pages/about.html',
             controller: 'aboutController'
         })
+        .when('/video', {
+            templateUrl: 'Pages/video.html',
+            controller: 'videoController'
+        })
         .when('/contact', {
             templateUrl: 'Pages/contact.html',
             controller: 'contactController'
