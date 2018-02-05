@@ -1,160 +1,25 @@
-.tab {
-    /*margin-top: 4%;*/
-    margin-left: 8%;
-    margin-right: 8%;
-    /*    background-color: darkslategrey;*/
-    /*    font-display: block;*/
-    /*    font-family: cursive;*/
-    /*    font-weight: 700;*/
+.tab{margin-left:8%;margin-right:8%;}
+.btn-aries{background-color:#ff0000;color:white;font-weight:bold;}
+.btn-taurus{background-color:orange;color:white;font-weight:bold;}
+.btn-gemini{background-color:chartreuse;color:white;font-weight:bold;}
+.btn-cancer{background-color:skyblue;color:chocolate;font-weight:bold;}
+.btn-leo{background-color:#FFFC7F;color:chocolate;font-weight:bold;}
+.btn-virgo{background-color:#507642;color:white;font-weight:bold;}
+.btn-libra{background-color:#191970;color:white;font-weight:bold;}
+.btn-libra:hover{color:darkgrey;}
+.btn-scorpio{background-color:mediumpurple;color:white;font-weight:bold;}
+.btn-sagittarius{background-color:#FFA500;color:white;font-weight:bold;}
+.btn-capricorn{background-color:#1560bd;color:white;font-weight:bold;}
+.btn-aquarius{background-color:violet;color:white;font-weight:bold;}
+.btn-pisces{background-color:#FF69B4;color:white;font-weight:bold;}
+.horoscope{margin-left:8%;margin-right:8.5%;}
+.brand{margin-left:1.5%;color:#101010;font-size:xx-large;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
+.brand:hover{color:#761c19;}
+.blink{color:red;font-size:30px;animation:blink_animation .5s infinite;}
+.blink-custom{color:#d43f3a;animation:blink_animation .5s infinite;}
+@keyframes blink_animation{50%{color:red;}
+100%{color:blue}
 }
-
-.btn-aries {
-    background-color: #ff0000;
-    color: white;
-    font-weight: bold;
-}
-
-.btn-taurus {
-    background-color: orange;
-    color: white;
-    font-weight: bold;
-}
-
-.btn-gemini {
-    background-color: chartreuse;
-    color: white;
-    font-weight: bold;
-}
-
-/*.btn-gemini:hover {
-    color: white;
-}*/
-
-.btn-cancer {
-    background-color: skyblue;
-    color: chocolate;
-    font-weight: bold;
-}
-
-.btn-leo {
-    background-color: #FFFC7F;
-    color: chocolate;
-    font-weight: bold;
-}
-
-.btn-virgo {
-    background-color: #507642;
-    color: white;
-    font-weight: bold;
-}
-
-.btn-libra {
-    background-color: #191970;
-    color: white;
-    font-weight: bold;
-}
-
-.btn-libra:hover {
-    color: darkgrey;
-}
-
-.btn-scorpio {
-    background-color: mediumpurple;
-    color: white;
-    font-weight: bold;
-}
-
-.btn-sagittarius {
-    background-color: #FFA500;
-    color: white;
-    font-weight: bold;
-}
-
-.btn-capricorn {
-    background-color: #1560bd;
-    color: white;
-    font-weight: bold;
-}
-
-.btn-aquarius {
-    background-color: violet;
-    color: white;
-    font-weight: bold;
-}
-
-.btn-pisces {
-    background-color: #FF69B4;
-    color: white;
-    font-weight: bold;
-}
-
-.horoscope {
-    margin-left: 8%;
-    margin-right: 8.5%;
-}
-
-.brand {
-    margin-left: 1.5%;
-    color: #101010;
-    font-size: xx-large;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.brand:hover {
-    color: #761c19;
-
-}
-
-.blink {
-    color: red;
-    font-size: 30px;
-    animation: blink_animation .5s infinite;
-}
-
-.blink-custom {
-    color: #d43f3a;
-    animation: blink_animation .5s infinite;
-}
-
-@keyframes blink_animation {
-    50% {
-        color: red;
-    }
-    100% {
-        color: blue
-    }
-}
-
-.footer-list {
-    color: #1b6d85;
-    font-weight: bold;
-}
-
-.about-us {
-    color: #d43f3a;
-    font-weight: bold;
-}
-
-.glyphicon-contact {
-    color: darkgreen;
-    font-size: x-large;
-    font-weight: bolder;
-}
-
-.video-container {
-    position: relative;
-    padding-bottom: 25.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-}
+.footer-list{color:#1b6d85;font-weight:bold;}
+.about-us{color:#d43f3a;font-weight:bold;}
+.glyphicon-contact{color:darkgreen;font-size:x-large;font-weight:bolder;}
