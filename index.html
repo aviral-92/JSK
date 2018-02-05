@@ -4,14 +4,22 @@
 <html ng-app="scotchApp">
 
 <head>
+    <title>Jyotish Samadhan Kendera</title>
     <meta name="description" content="Jyotish Smadhan Kendera">
     <meta name="keywords"
-          content="Jyotish, Smadhan, kendera, kundali, love, kundali matching, astrology, Birth astrology">
-    <meta http-equiv="refresh" content="30">
+          content="Jyotish, Smadhan, kendera, kundali, love, kundali matching, astrology, Birth astrology, Vastu">
+    <!--<meta http-equiv="refresh" content="30">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/static/bootstrap.min.css"/>
+    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css"/>-->
+    <link rel="stylesheet" href="css/index.css"/>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="css/static/font-awesome.min.css"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113243623-1"></script>
+    <!--<script async src="js/static/js/gtag.js"></script>-->
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -20,30 +28,16 @@
         }
 
         gtag('js', new Date());
-
         gtag('config', 'UA-113243623-1');
-
     </script>
-
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
+    <!--<script async src="js/static/js/adsByGoogle.js"></script>-->
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({
             google_ad_client: "ca-pub-8069254255756623",
             enable_page_level_ads: true
         });
     </script>
-
-
-    <title>Jyotish Samadhan Kendera</title>
-    <!-- SCROLLS -->
-    <!--    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css"/>
-    <link rel="stylesheet" href="css/index.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- SPELLS -->
-
 </head>
 
 <!--https://www.facebook.com/jyotishsmadhankendra/-->
@@ -51,7 +45,6 @@
 <!-- define angular controller -->
 
 <body ng-controller="mainController">
-<!--    <br><br><br><br> <a href="#aries">-->
 
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -75,12 +68,6 @@
     </div>
 </nav>
 
-<!--<div class="row">-->
-<!--<div class="col-sm-4 brand">-->
-<!--<h2>Jyotish Smadhan Kendra</h2>-->
-<!--</div>-->
-<!--</div>-->
-
 <div class="tab btn-group btn-group-lg">
     <a href="#aries" class="btn  btn-aries">Aries</a>
     <a href="#taurus" class="btn btn-taurus">Taurus</a>
@@ -95,7 +82,6 @@
     <a href="#aquarius" class="btn btn-aquarius">Aquarius</a>
     <a href="#pisces" class="btn btn-pisces">Pisces</a>
 </div>
-<!-- angular templating -->
 <!-- this is where content will be injected -->
 <div class=" panel panel-default horoscope">
     <div class="panel-body" ng-view></div>
@@ -135,6 +121,12 @@
                     <a href="https://www.facebook.com/jyotishsmadhankendra">
                         <i class="fa fa-facebook-official" style="font-size: xx-large"></i>
                     </a>
+                    <a href="https://www.linkedin.com/in/ask-astro-24501a159/">
+                        <i class="fa fa-linkedin-square" style="font-size: xx-large"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-twitter-square" style="font-size: xx-large"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -156,10 +148,10 @@
 </div>
 </body>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+<script src="js/static/jquery.min.js"></script>
+<script src="js/static/bootstrap.min.js"></script>
+<script src="js/static/angular.min.js"></script>
+<script src="js/static/angular-route.js"></script>
 <script src="js/Router.js"></script>
 <script src="js/Controller.js"></script>
 </html>
