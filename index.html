@@ -4,12 +4,39 @@
 <html ng-app="scotchApp">
 
 <head>
-    <title>Jyotish</title>
+    <meta name="description" content="Jyotish Smadhan Kendera">
+    <meta name="keywords" content="Jyotish, Smadhan, kendera, kundali, love, kundali matching, astrology, Birth astrology">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113243623-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113243623-1');
+
+    </script>
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+	<script>
+	  (adsbygoogle = window.adsbygoogle || []).push({
+	    google_ad_client: "ca-pub-8069254255756623",
+	    enable_page_level_ads: true
+	  });
+	</script>
+
+
+    <title>Jyotish Samadhan Kendera</title>
     <!-- SCROLLS -->
     <!--    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css"/>
-    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- SPELLS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -19,30 +46,113 @@
     <script src="js/Controller.js"></script>
 </head>
 
+<!--https://www.facebook.com/jyotishsmadhankendra/-->
+
 <!-- define angular controller -->
 
 <body ng-controller="mainController">
-<!--    <br><br><br><br> <a href="#aries">-->
-<div class="tab btn-group">
-    <a href="#aries" class="btn btn-aries">Aries</a>
-    <a href="#taurus" class="btn btn-taurus">Taurus</a>
-    <a href="#gemini" class="btn btn-gemini">Gemini</a>
-    <a href="#cancer" class="btn btn-cancer">Cancer</a>
-    <a href="#leo" class="btn btn-leo">Leo</a>
-    <a href="#virgo" class="btn btn-virgo">Virgo</a>
-    <a href="#libra" class="btn btn-libra">Libra</a>
-    <a href="#scorpio" class="btn btn-scorpio">Scorpio</a>
-    <a href="#sagittarius" class="btn btn-sagittarius">Sagittarius</a>
-    <a href="#capricorn" class="btn btn-capricorn">Capricorn</a>
-    <a href="#aquarius" class="btn btn-aquarius">Aquarius</a>
-    <a href="#pisces" class="btn btn-pisces">Pisces</a>
-</div>
-<!-- angular templating -->
-<!-- this is where content will be injected -->
-<div class="well well-sm horoscope">
-    <div ng-view></div>
-</div>
-<div class="footer"></div>
+    <!--    <br><br><br><br> <a href="#aries">-->
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <!--Jyotish Smadhan Kendra-->
+                <a class="navbar-brand" href="#">Jyotish Smadhan Kendra </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--<div class="row">-->
+    <!--<div class="col-sm-4 brand">-->
+    <!--<h2>Jyotish Smadhan Kendra</h2>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <div class="tab btn-group btn-group-lg">
+        <a href="#aries" class="btn  btn-aries">Aries</a>
+        <a href="#taurus" class="btn btn-taurus">Taurus</a>
+        <a href="#gemini" class="btn btn-gemini">Gemini</a>
+        <a href="#cancer" class="btn btn-cancer">Cancer</a>
+        <a href="#leo" class="btn btn-leo">Leo </a>
+        <a href="#virgo" class="btn btn-virgo">Virgo </a>
+        <a href="#libra" class="btn btn-libra">Libra </a>
+        <a href="#scorpio" class="btn btn-scorpio">Scorpio</a>
+        <a href="#sagittarius" class="btn btn-sagittarius">Sagittarius</a>
+        <a href="#capricorn" class="btn btn-capricorn">Capricorn</a>
+        <a href="#aquarius" class="btn btn-aquarius">Aquarius</a>
+        <a href="#pisces" class="btn btn-pisces">Pisces</a>
+    </div>
+    <!-- angular templating -->
+    <!-- this is where content will be injected -->
+    <div class=" panel panel-default horoscope">
+        <div class="panel-body" ng-view></div>
+    </div>
+    <div class="well">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/banner.jpg" width="400" height="200" />
+                    </div>
+                    <div class="col-md-3">
+                        <b>Live Astrology</b>
+                        <ul class="footer-list">
+                            <li>Career Forecast 2018</li>
+                            <li>Kundali</li>
+                            <li>Annual Forecast 2018</li>
+                            <li>Kundali Matching</li>
+                            <li>Finance Forecast 2018</li>
+                            <li>Life Report</li>
+                            <li>Business Forecast 2018</li>
+                            <li>Love Forecast 2018</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <b>Vastu Service</b>
+                        <ul class="footer-list">
+                            <li>Vastu Services for Offices</li>
+                            <li>Vastu Services for Factories</li>
+                            <li>Vastu Service for Land Selection</li>
+                            <li>Vastu Services for Farmhouses</li>
+                            <li>Vastu Services for Bungalows</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <b>Follow us:</b><br>
+                        <a href="https://www.facebook.com/jyotishsmadhankendra">
+                        <i class="fa fa-facebook-official" style="font-size: xx-large"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <b>@Copyright 2018. All rights reserved</b>
+                    </div>
+                    <div class="col-md-8">
+                        <b class="pull-right">Made by: Aviral Mittal (Software Engineer) </b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

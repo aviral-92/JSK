@@ -1,7 +1,7 @@
 .tab {
-    margin-top: 8%;
-    margin-left: 15%;
-    margin-right: 15%;
+    /*margin-top: 4%;*/
+    margin-left: 8%;
+    margin-right: 8%;
     /*    background-color: darkslategrey;*/
     /*    font-display: block;*/
     /*    font-family: cursive;*/
@@ -89,6 +89,54 @@
 }
 
 .horoscope {
-    margin-left: 15%;
-    margin-right: 19.5%;
+    margin-left: 8%;
+    margin-right: 8.5%;
+}
+
+.brand {
+    margin-left: 1.5%;
+    color: #101010;
+    font-size: xx-large;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.brand:hover {
+    color: #761c19;
+
+}
+
+.blink {
+    color: red;
+    font-size: 30px;
+    animation: blink_animation .5s infinite;
+}
+
+.blink-custom {
+    color: #d43f3a;
+    animation: blink_animation .5s infinite;
+}
+
+@keyframes blink_animation {
+    50% {
+        color: red;
+    }
+    100% {
+        color: blue
+    }
+}
+
+.footer-list {
+    color: #1b6d85;
+    font-weight: bold;
+}
+
+.about-us {
+    color: #d43f3a;
+    font-weight: bold;
+}
+
+.glyphicon-contact {
+    color: darkgreen;
+    font-size: x-large;
+    font-weight: bolder;
 }
